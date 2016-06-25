@@ -1,0 +1,46 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+void MakeFile();
+void LoadFile();
+
+class Database {
+private :
+    string name;
+	int id;
+	string bg;
+	string status;
+	public :
+    ofstream writeFile;
+    ifstream readFile;
+
+
+    void MakeFile() {
+    writeFile.open("Database.csv", fstream::app);
+    do {
+        cin >> id >> name >> bg >> status;
+        writeFile << id << "," << name << "," << bg << "," << status << "," << endl;
+        }while(writeFile.eof()==0);
+
+    }
+
+    void LoadFile() {
+    readFile.open("Database.csv");
+    while(readFile >> id >> name >> bg >> status)   {
+        cout<<id << "," << name << "," << bg << "," << status << "," << endl;
+    }
+             }
+};
+
+int main()	{
+    char x;
+	Database data;
+	data.MakeFile();
+	cout <<"Do you want to read the file? "<< endl;
+	cin >> x;
+	if(x=='Y')
+        data.LoadFile();
+    }
+
