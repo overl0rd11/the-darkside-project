@@ -1,2 +1,4 @@
-# glowing-lamp
-My first repository on github.
+# The Darkside Project
+
+
+Lets own the world with this shit. 
