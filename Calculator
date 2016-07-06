@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cstdlib>
+#include <conio.h>
+#include <windows.h>
+
+
+using namespace std;
+
+int main()
+{   cout << "****************************************************\n";
+    cout << " Hello, Welcome to the Darkside Calculator Project ! \n";
+    cout << "****************************************************\n";
+    Sleep(1000);
+    cout << " HaDeS and OveRLorD presents ...\n";
+    Sleep(3000);
+    cout << " A Darkside Co. Application \n";
+    Sleep(2000);
+    cout << "           SIMPLE CALCULATOR Version 0.10 beta         ";
+
+    //Commented Part
+    /*
+    
+    //Class name is Calculator.
+    Calculator OurCalc; //Object Name OurCalc
+
+    OurCalc.printCalc;  //Function that prints out the initial instructions for the operation
+    OurCalc.GetExp;     //Gets the expression as an input from the user
+    OurCalc.Add();      // A function for characteristics of addition
+    OurCalc.Substract();    // A function which contains the characteristics for subtraction
+    OurCalc.Multiply();     // A function which contains the characteristics for  Multiplication
+    OurCalc.Divide();       // A function which contains the characteristics for Division
+    OurCalc.UpdateResult();     //A function for updating the answer to a number for another operation
+    OurCalc.ShowResult();   // A function to show the result
+    OurCalc.ShowMenu();     // A function to print out the Operation Menu
+
+    delete OurCalc;
+    */
+}
