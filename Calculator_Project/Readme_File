@@ -4,3 +4,4 @@ Whenever you make an edit, put a time stamp here along with the file name.
 
 File_Name           Date                          Description
 Readme_File         7th-July, 2:53 A.M            Made a branch, and edited the readme file.
+Calculator.main     7th-July, 12:57 P.M           Added a header for string stream to allow to take the expression as a string type input.
