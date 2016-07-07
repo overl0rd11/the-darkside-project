@@ -3,13 +3,14 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
 
 class Calculator
 {
     public:
         Calculator();
         void printCalc();
-        void GetExp();
+        string GetExp() { return _expression; }
         void Add();
         void Subtract();
         void Multiply();
@@ -17,11 +18,14 @@ class Calculator
         void UpdateResult();
         void ShowResult();
         void ShowMenu();
+        bool isExpressionEntered();
 
 
     protected:
 
     private:
+        string _expression;
 };
 
 #endif // CALCULATOR_H
+
