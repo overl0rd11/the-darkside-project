@@ -3,5 +3,7 @@ Bhenchod Read This before Proceeding. Seriously.
 Whenever you make an edit, put a time stamp here along with the file name.
 
 File_Name           Date                          Description
-Readme_File         7th-July, 2:53 A.M            Made a branch, and edited the readme file.
+Readme_File         7th-July, 2:53 A.M            Made a branch.
 Calculator.main     7th-July, 12:57 P.M           Added a header for string stream to allow to take the expression as a string type input.
+Calculator.h        7th-July, 9:32 P.M            Added the header file Calculator.h (Calculator class) containing the private and public functions/variables.
+Calculator.cpp      7th-July, 9:33 P.M            Added the cpp file containing the functions, wrote a boolean function for detecting the expression.
