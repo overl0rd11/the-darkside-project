@@ -7,6 +7,11 @@
 
 using namespace std;
 
+void getexp()
+{
+	string a;
+}
+
 int main()
 {   cout << "****************************************************\n";
     cout << " Hello, Welcome to the Darkside Calculator Project ! \n";
@@ -16,8 +21,51 @@ int main()
     Sleep(3000);
     cout << " A Darkside Co. Application \n";
     Sleep(2000);
-    cout << "           SIMPLE CALCULATOR Version 0.10 beta         ";
-
+    cout << "           SIMPLE CALCULATOR Version 0.10 beta         "<<endl;
+    
+    Sleep(3000);
+    cout<<"Type 1 to continue"<<endl;
+    int n;
+    cin>>n;
+    int cont;
+    if (n)
+    {
+    	int choice;
+    	
+    	cont =1;
+    	cout<<"Which operation do you want to perform?"<<endl<<"1. Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl<<"5. Exit"<<endl;    	
+    	cin>>choice;
+    	  	
+		while (cont)
+		{
+			switch (choice)
+			{
+				case 1:
+					/*  add(int a, int b);*/
+					return 0;
+					break;
+				case 2:
+					/* sub (int a, int b)*/
+					return 0;
+					break;
+				case 3:
+					/*mult (int a, int b)*/
+					return 0;
+					break;
+				case 4:
+					/*div (int a, int b)*/
+					return 0;
+					break;
+				case 5:
+					cont=0;
+					break;
+			}
+		}
+	}
+		cout<<"Thank you for using simple calculator 0.10 Beta!"<<endl;
+		return 0;
+	
+    
     //Commented Part
     /*
     
@@ -35,5 +83,9 @@ int main()
     OurCalc.ShowMenu();     // A function to print out the Operation Menu
 
     delete OurCalc;
+    
+    
     */
+    
+    //Class will be built after basic functionality is up and running!
 }
